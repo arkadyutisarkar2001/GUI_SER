@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block body %}
+<section class="upload">
+    <div class="upload-btn-wrapper">
+        <input type="button" class="btn  modal-open" value="Select a WAV file">
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close modal-close">&times;</span>
+
+                <form action="/test" method="post" id="form-wav">
+                    <input type="file" id="myFile" class="btn btn-modal" name="emotion" multiple accept="audio/wav">
+                    <input type="submit" class="btn btn-modal">
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock body %}
+
+
+{% block link %}
+<link rel="stylesheet" href="../static/style_test.css">
+{% endblock link %}
+
+{% block script %}
+<script src="../static/script_test.js"></script>
+{% endblock script %}
