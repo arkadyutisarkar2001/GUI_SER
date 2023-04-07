@@ -24,10 +24,10 @@ $uri= $_SERVER['HTTP_HOST'];
                 <a class='nav-link active' aria-current='page' href='/'>Home</a>
               </li>
               <li class='nav-item'>
-                <a class='nav-link' href='#'>Traing</a>
+                <a class='nav-link' href='#'>Testing</a>
               </li>
               <li class='nav-item'>
-                <a class='nav-link' href='testing.php'>Testing</a>
+                <a class='nav-link' href='testing.php'>Training</a>
               </li>
             </ul>
           </div>
